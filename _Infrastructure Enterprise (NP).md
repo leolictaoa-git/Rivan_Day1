@@ -1705,12 +1705,12 @@ conf t
  ephone-dn 8
   number 4188
  ephone 1
-  mac-address #ephone1macadd#
+  mac-address 204c.9e6c.e263
   type 8945
   button 1:1 2:2 3:3 4:4
   restart
  ephone 2
-  mac-address #ephone2macadd#
+  mac-address ccd8.c1fa.ee43
   type 8945
   button 1:5 2:6 3:7 4:8
   restart
@@ -1845,7 +1845,7 @@ conf t
   session target ipv4:10.92.100.8
   codec g711ULAW
  no dial-peer voice 41 Voip
- end
+ end 
 ~~~
 
 
